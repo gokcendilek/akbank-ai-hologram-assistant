@@ -108,6 +108,7 @@ Aşağıdaki görselde, kullanıcıyla konuşan hologram asistan arayüzü gör�
 
 Uygulamanın çalıştığı demo videosunu izlemek için aşağıdaki bağlantıya tıklayın:  
 🎬 [Uygulamayı İzle (Google Drive)](https://drive.google.com/file/d/16XHbT5dyo7possvoQxCp6ksuimXlfj1w/view?usp=sharing)
+Farklı açıdan ekran videosu: https://drive.google.com/file/d/1QzlYlOKjtGZ1n4oIM-c0--fEtY8Dn3k8/view
 
 ## 🧪 Testler
 
