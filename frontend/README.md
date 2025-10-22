@@ -26,7 +26,7 @@ npm veya yarn paket yöneticisi
 
 🧩 Kurulum
 # Projeyi klonla
-git clone https://github.com/<kullanici_adi>/akbank-ai-hologram.git
+git clone https://github.com/<gokcendilek>/akbank-ai-hologram.git
 cd akbank-ai-hologram/frontend
 
 # Bağımlılıkları yükle
