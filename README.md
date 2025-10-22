@@ -4,7 +4,7 @@ Bu proje, Akbank için geliştirilen yapay zekâ tabanlı 3D hologram asistan uy
 Kullanıcılar, asistanla görsel (3D karakter) ve sesli (TTS/STT) olarak etkileşime geçebilir.
 Sistem, FastAPI (Backend) ve React + Three.js (Frontend) teknolojilerini kullanır.
 
-## 🧠 Özellikler
+##  Özellikler
 
 - 🎙️ **Sesli Komutlar** – Kullanıcı mikrofonuyla konuşarak soru sorabilir.
 - 💬 **Yazılı Chat** – Aynı anda metin üzerinden sohbet desteği.
@@ -68,6 +68,11 @@ npm run dev
 
 Aşağıdaki görselde, kullanıcıyla konuşan hologram asistan arayüzü görülmektedir.
 <img width="1910" height="1034" alt="Ekran Resmi 2025-10-22 01 15 24" src="https://github.com/user-attachments/assets/66496fb4-435c-4d64-882c-5ac5c33ebbf1" />
+
+## 🎥 Uygulama Videosu
+
+Uygulamanın çalıştığı demo videosunu izlemek için aşağıdaki bağlantıya tıklayın:  
+🎬 [Uygulamayı İzle (Google Drive)](https://drive.google.com/file/d/16XHbT5dyo7possvoQxCp6ksuimXlfj1w/view?usp=sharing)
 
 
 
