@@ -1,0 +1,45 @@
+#  Virtual environment
+.venv/
+venv/
+ENV/
+env/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+#  Python cache & build
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+build/
+dist/
+
+# 🧪 Tests cache
+.pytest_cache/
+.coverage
+htmlcov/
+
+# 💾 Local database / cache
+akbank_rag_db/
+*.db
+*.sqlite3
+
+# 🎵 Audio / media outputs
+static/audio/
+*.mp3
+*.wav
+*.webm
+
+
+# 💻 IDE / OS artifacts
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+__MACOSX/
