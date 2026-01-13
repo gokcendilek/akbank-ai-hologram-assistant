@@ -16,7 +16,7 @@
     "lucide-react": "^0.546.0",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
-    "three": "^0.180.0",
+    "three": "^0.182.0",
     "three-stdlib": "^2.36.0"
   },
   "devDependencies": {
