@@ -21,4 +21,4 @@ langsmith==0.1.147
 chromadb==0.4.22
 chromadb==0.4.22
 langchain-chroma>=0.1.2,<0.2.0
-langchain-text-splitters==0.2.4
+langchain-text-splitters==0.3.9
