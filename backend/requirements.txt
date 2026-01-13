@@ -2,7 +2,7 @@ fastapi==0.104.1
 uvicorn==0.24.0
 python-dotenv==1.0.0
 SpeechRecognition==3.10.0
-requests==2.31.0
+requests==2.32.4
 beautifulsoup4==4.12.2
 websockets==12.0
 python-multipart==0.0.18
@@ -15,7 +15,7 @@ tiktoken==0.7.0
 
 langchain==0.2.17
 langchain-core==0.3.81
-langchain-community==0.2.9
+langchain-community==0.3.27
 langchain-openai==0.1.20
 langsmith==0.1.147
 chromadb==0.4.22
