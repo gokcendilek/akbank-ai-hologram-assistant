@@ -1,6 +1,6 @@
 fastapi==0.104.1
 uvicorn==0.24.0
-python-dotenv==1.0.0
+python-dotenv==1.2.1
 SpeechRecognition==3.10.0
 requests==2.32.4
 beautifulsoup4==4.12.2
