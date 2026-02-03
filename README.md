@@ -1,19 +1,19 @@
-# 💫 Akbank AI Hologram Asistan (3D Sesli & Yazılı Chatbot)
+#  Akbank AI Hologram Asistan (3D Sesli & Yazılı Chatbot)
 
 Bu proje, Akbank için geliştirilen yapay zekâ tabanlı 3D hologram asistan uygulamasıdır.
 Kullanıcılar, asistanla görsel (3D karakter) ve sesli (TTS/STT) olarak etkileşime geçebilir.
 Sistem, FastAPI (Backend) ve React + Three.js (Frontend) teknolojilerini kullanır.
 
-## ✨ Özellikler
+##  Özellikler
 
-- 🎙️ **Sesli Komutlar** – Kullanıcı mikrofonuyla konuşarak soru sorabilir.
-- 💬 **Yazılı Chat** – Aynı anda metin üzerinden sohbet desteği.
-- 🧍‍♀️ **3D Hologram Avatar** – Gerçekçi Mixamo animasyonlarıyla konuşma ve dinleme hareketleri.
-- 🧩 **RAG (LangChain + Chroma)** – Bilgi tabanına dayalı akıllı cevaplama sistemi.
-- 🔊 **TTS/STT Entegrasyonu** – Ses tanıma ve sesli yanıt üretimi.
-- ⚡ **Gerçek Zamanlı WebSocket Akışı** – Anlık konuşma ve animasyon senkronizasyonu.
+-  **Sesli Komutlar** – Kullanıcı mikrofonuyla konuşarak soru sorabilir.
+-  **Yazılı Chat** – Aynı anda metin üzerinden sohbet desteği.
+-  **3D Hologram Avatar** – Gerçekçi Mixamo animasyonlarıyla konuşma ve dinleme hareketleri.
+-  **RAG (LangChain + Chroma)** – Bilgi tabanına dayalı akıllı cevaplama sistemi.
+-  **TTS/STT Entegrasyonu** – Ses tanıma ve sesli yanıt üretimi.
+-  **Gerçek Zamanlı WebSocket Akışı** – Anlık konuşma ve animasyon senkronizasyonu.
 
-## 🏗️ Mimari
+##  Mimari
 ```
 akbank-ai-hologram-assistant/
 ├── backend/                      # FastAPI, LangChain, TTS/STT, WebSocket
@@ -43,7 +43,7 @@ akbank-ai-hologram-assistant/
 └── .gitignore
 ```
 
-## 📥 Projeyi İndirme
+##  Projeyi İndirme
 ```bash
 # HTTPS ile clone
 git clone https://github.com/gokcendilek/akbank-ai-hologram-assistant.git
@@ -55,9 +55,9 @@ gh repo clone gokcendilek/akbank-ai-hologram-assistant
 cd akbank-ai-hologram-assistant
 ```
 
-## 🚀 Kurulum ve Çalıştırma
+##  Kurulum ve Çalıştırma
 
-### 🖥️ Backend (FastAPI)
+###  Backend (FastAPI)
 ```bash
 cd backend
 python -m venv .venv
@@ -80,14 +80,14 @@ Backend'i başlatın:
 uvicorn main:app --reload --port 8000
 ```
 
-### 💻 Frontend (React + Vite)
+###  Frontend (React + Vite)
 ```bash
 cd frontend
 npm install
 npm run dev
 ```
 
-## ⚙️ Teknolojiler
+##  Teknolojiler
 
 | Katman | Teknolojiler |
 |--------|-------------|
@@ -98,19 +98,19 @@ npm run dev
 | **Ses Motoru** | Google TTS / pyttsx3 |
 | **3D Model Formatı** | FBX (Mixamo'dan türetilmiş) |
 
-## 🧩 Örnek Görünüm
+##  Örnek Görünüm
 
 Aşağıdaki görselde, kullanıcıyla konuşan hologram asistan arayüzü görülmektedir.
 
 <img width="1910" height="1034" alt="Ekran Resmi 2025-10-22 01 15 24" src="https://github.com/user-attachments/assets/66496fb4-435c-4d64-882c-5ac5c33ebbf1" />
 
-## 🎥 Uygulama Videosu
+##  Uygulama Videosu
 
 Uygulamanın çalıştığı demo videosunu izlemek için aşağıdaki bağlantıya tıklayın:  
 🎬 [Uygulamayı İzle (Google Drive)](https://drive.google.com/file/d/16XHbT5dyo7possvoQxCp6ksuimXlfj1w/view?usp=sharing)
 Farklı açıdan ekran videosu: https://drive.google.com/file/d/1QzlYlOKjtGZ1n4oIM-c0--fEtY8Dn3k8/view
 
-## 🧪 Testler
+##  Testler
 
 Backend testlerini çalıştırmak için:
 ```bash
@@ -120,7 +120,7 @@ pytest -q
 python -m backend.tests.quick_test
 ```
 
-## 📦 Dağıtım (Opsiyonel)
+##  Dağıtım (Opsiyonel)
 
 Docker veya bulut ortamına deploy etmek için:
 ```bash
@@ -128,14 +128,14 @@ docker build -t akbank-ai-hologram .
 docker run -p 8000:8000 akbank-ai-hologram
 ```
 
-## 👩‍💻 Geliştirici
+##  Geliştirici
 
 **Gökçen Dilek Alak**  
 📍 Türkiye  
 🔗 [GitHub](https://github.com/gokcendilek)  
 🔗 [LinkedIn](https://www.linkedin.com/in/gökçen-dilek-alak-a8449b245)
 
-## 🛡️ Notlar
+##  Notlar
 
 - `.venv` ve büyük model dosyaları (`.fbx`, `.wav`, `.mp3`) `.gitignore` ile hariç tutulmuştur.
 - 3D animasyonlar (`idle.fbx`, `speaking.fbx`, `listening.fbx`) `public/animations` klasöründe yer almaktadır.
